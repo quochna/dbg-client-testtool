@@ -1,0 +1,76 @@
+
+<form method="post" action="/dbgclient/showcardlockedinfo">
+<style>
+ table, td, th
+{
+    border:1px solid green;
+    border-spacing:2;
+    border-padding:3;
+    text-align: center;
+}
+th
+{
+background-color:green;
+color:white;
+}
+
+</style>
+
+
+<div>
+    
+    
+    <table width="90%">
+        <tr width="90%">
+            <td colspan="2">Card Serial </td>
+            <td colspan="2"><input size ="40" type="text" name="cardserial" value="{{cardserial}}"/></td>
+        </tr>
+        <tr>
+            <td colspan="2">PMCID</td>
+            <td colspan="2"><input size ="40" type="text" name="pmcid" value="{{pmcid}}"/></td>
+        </tr>
+         <tr>
+            <td colspan="2">MaxCounter</td>
+            <td colspan="2"><input size ="40" type="text" name="maxcounter" value="{{maxcounter}}"/></td>
+        </tr>
+         <tr>
+            <td colspan="2">DiffInMinute</td>
+            <td colspan="2"><input size ="40" type="text" name="diffinminute" value="{{diffinminute}}"/></td>
+        </tr>
+          <tr>
+            <td colspan="2">LockInMinute</td>
+            <td colspan="2"><input size ="40" type="text" name="lockinminute" value="{{lockinminute}}"/></td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                Object get from Cache 
+            </td>
+        </tr>
+       <tr>
+           <td>
+               IsLocked : </br> {{islocked}}
+           </td>
+            <td>
+               Counter : </br> {{counter}}
+            </td>
+            <td>
+                Last Update Counter : </br> {{lastupdatecounter}}
+            </td> 
+            <td>
+                Last Lock Date : </br> {{lastlockdate}}
+            </td>
+        </tr>
+          <tr>
+            <td colspan="4">
+                Call isCardLocked result : </br>{{iscardlocked}}
+            </td>
+        </tr>
+          <tr>
+            <td colspan="2"></td>
+            <td colspan="2"><input size ="50" type="submit" value="Show"/></td>
+        </tr> 
+
+    </table >
+    
+</div>
+</form>

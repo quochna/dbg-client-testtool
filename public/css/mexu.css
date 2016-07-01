@@ -1,0 +1,50 @@
+@charset "utf-8";
+.zc-dxl,.zc-gdtc,.zc-gdtb{
+    color: #555555;
+    display: block;
+    float: left;
+    height: 16px;
+    margin-left: 25px;
+    padding-left: 20px;
+}
+.zc-gdtb{
+background: url("../images/imgfail.png") no-repeat scroll 0 50% transparent;
+}
+
+.zc-dxl{
+  background: url("../images/imgprocess.png") no-repeat scroll 0 50% transparent;
+}
+.zc-gdtc{
+ background: url("../images/imgsuccess.png") no-repeat scroll 0 50% transparent;
+}
+.zc-arrowright{
+padding-left: 21px;
+ background: url("../images/imgarrowright.png") no-repeat scroll 0 50% transparent;
+}
+.zc-iconzc{
+color:#FF5C02;
+font-weight:bold;
+font-size:13px;
+padding-left: 20px;
+margin-left: 3px;
+background: url("../images/iconzc.gif") no-repeat scroll 0 50% transparent;
+}
+.zc-noiconzc{
+color:#FF5C02;
+font-weight:bold;
+font-size:13px;
+}
+.zc-iconzc2{
+padding-left: 20px;
+background: url("../images/iconzc.gif") no-repeat scroll 0 50% transparent;
+}
+.zc-icon-title {
+    color: #555555;
+    float: left;
+    font-weight: bold;    
+}
+.yel {
+    color: #FF5C02;
+    font-weight: bold;
+    font-size: 16px;
+}

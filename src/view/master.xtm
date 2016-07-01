@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>{{PAYTITLE}}</title>
+        <meta http-equiv="description" content="" />
+        <meta http-equiv="keywords" content="" />
+        <link href="{{STATIC_URL}}/layout/css/credits-1.0.css" rel="stylesheet" type="text/css" />
+        <!--
+        <link href="{{STATIC_URL}}/css/passport_screen_1.14.css" rel="stylesheet" type="text/css" />
+        -->
+        <link href="{{STATIC_URL}}/css/mexu.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript"  src="{{STATIC_URL}}/js/zmCore-1.26.min.js"></script>
+        <script type="text/javascript"  src="{{STATIC_URL}}/js/zm.xcall-1.15.min.js"></script>
+    </head>
+    <body>
+        <style type="text/css" >
+            .btsbmzc {
+                background: none repeat scroll 0 0 #80A5D5;
+                border: 1px solid #486DA4;
+                color: #FFFFFF;
+                font-size: 11px;
+                font-weight: bold;
+                line-height: 16px;
+                padding: 2px 6px;
+                text-align: center;
+                margin:5px;
+                cursor:pointer;
+
+            }
+            a.btsbmzc:hover{
+                color:white;
+                text-decoration:none;
+            }
+            .yel {
+                color: #FF5C02;
+                font-size: 16px;
+                font-weight: bold;
+            }
+        </style>
+        <div style="max-width:800px;min-width:595px;width: 100%;margin:0 auto">
+                <div class="loadframe" style='width:100%;'>
+                    {{>entrance}}
+                    {{>confirm}}
+                    {{>entrancedirectpmcid}}
+                    {{>confirmdirectpmcid}}
+                    {{>viewCache}}
+                    {{>showerrorinfo}}
+                    {{>adderrorinfo}}
+                    {{>addcardlockedinfo}}
+                    {{>showcardlockedinfo}}
+                    {{>viewTransHistory}}
+                    {{>smsEntrance}}
+                    {{>smsConfirm}}
+                    {{>smsSendMO}}
+                    {{>getTransStatus}}
+                    {{>smsSendMOResult}}
+                    {{>testaddmore}}
+                </div>
+                <div id="footer"></div>
+
+        
+            <script type='text/javascript'>
+                
+                function closePayment(){
+                    callbackPaymentHelper('{{REFID}}',1,-1);
+                }
+                function callbackPaymentHelper(billNo,step,result){
+                    var _url = '{{_url}}';
+                    var _t = '{{_t}}';
+                    switch (_t) {
+                        case  '1' : // popup
+                            try {
+                                if(_url) {
+                                    window.opener.location.href = _url;
+                                } else {
+                                    window.opener.location.reload();
+                                }
+                            } catch(exception){}
+                            window.close();
+                            break;
+                        case  '2' : // boxy
+                            zmXCall.callParent('callbackPayment', {billNo: billNo, step: step, result: result}, {host: "{{APPURL}}"});
+                            break;
+                        case  '3' : // direct page
+                            window.location.href = _url;
+                            break;
+                        case  '4' : // iframe
+                            zmXCall.callParent('callbackPayment', {billNo: billNo, step: step, result: result}, {host: "{{APPURL}}"});
+                            break;
+                        default :
+                            zmXCall.callParent('callbackPayment', {billNo: billNo, step: step, result: result}, {host: "{{APPURL}}"});
+                            break;
+                    }
+                }
+
+            </script>
+        </div>
+    </body>
+</html>

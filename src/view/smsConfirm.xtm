@@ -1,0 +1,82 @@
+<div>
+    <form method="post" action="/dbgclient/smssendmo">
+        <table>
+            <tr>
+                <td>user id</td>
+                <td>{{userid}}</td>
+            </tr>
+            <tr>
+                <td>item id</td>
+                <td>{{itemid}}</td>
+            </tr>
+            <tr>
+                <td>item name</td>
+                <td>{{itemname}}</td>
+            </tr>
+            <tr>
+                <td>item quantity</td>
+                <td>{{itemquantity}}</td>
+            </tr>
+            <tr>
+                <td>charge amt</td>
+                <td>{{chargeamt}}</td>
+            </tr>
+            <tr>
+                <td>platform</td>
+                <td>{{platform}}</td>
+            </tr>
+            <tr>
+                <td>flow</td>
+                <td>{{flow}}</td>
+            </tr>
+            <tr>
+                <td>appid</td>
+                <td>{{appid}}</td>
+            </tr>         
+            <tr>
+                <td>appserverid</td>
+                <td>{{serverid}}</td>
+            </tr>        
+            <tr>
+                <td>pmcid</td>
+                <td>{{pmcid}}</td>
+            </tr>
+            <tr>
+                <td>app trans id</td>
+                <td>{{appTransID}}</td>
+            </tr>
+            <tr>
+                <td>device platform </td>
+                <td><input size ="40" type="text" name ="pl" value ="{{deviceplatform}}" /></td>
+            </tr>
+            <tr>
+                <td>returnCode</td>
+                <td>{{returnCode1}}</td>
+            </tr>
+            <tr>
+                <td>returnMessage</td>
+                <td>{{returnMessage1}}</td>
+            </tr>
+            <tr>
+                <td>transID</td>
+                <td>{{transID1}}</td>
+            </tr>
+            <tr>
+                <td>reqTime</td>
+                <td>{{reqTime1}}</td>
+            </tr>        
+            <tr>
+                <td>smsMessage</td>
+                <td><input size ="40" type="text" name ="momessage" value ="{{smsMessage1}}"</td>
+            </tr>
+            <tr>
+                <td>servicePhones</td>
+                <td>{{servicePhones1}}</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input size ="50" type="submit" value="Xác Nhận"/></td>
+            </tr>
+        </table>
+    </form>
+</div>

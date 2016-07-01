@@ -1,0 +1,57 @@
+[jetty]
+listenPort=8004
+minThreads=50
+maxThreads=100
+acceptors=3
+
+[system]
+system-public-path=.
+system-url="http://localhost:8004"
+master-form-title="Xác nhận thanh toán sản phẩm"
+static-content-url=./public
+maintain-msg="Hệ thống đang được bảo trì. Mời bạn quay lại sau."
+credits-url="http://credits-me.zing.vn"
+
+[dbgclient]
+appid=1
+#key1=Rg9jruaqInhdYz9cmzYtI3oyyMTWA9Bv
+#key2=2jmU4J9UoqWl6dYmIhuL3R96vfUsWYb5
+#hashkey=h1mXqWdneC0oiWxHMMkFX4znKe6KStyr
+key1=01234567890123456789012345678912
+key2=01234567890123456789012345678912
+hashkey=01234567890123456789012345678912
+
+#gettransidurl=https://direct.pay.zing.vn/dbgapi/gettransid
+#submittransurl =https://direct.pay.zing.vn/chonkenhthanhtoan
+#submittransThanhtoanurl =https://direct.pay.zing.vn/thanhtoan
+#transHistoryUrl="http://10.30.22.130:8011/dbgapi/gettranshistory"
+templatepath = "./conf/submitTmpl.html"
+gettransidurl="http://10.30.22.130:8011/dbgapi/gettransid"
+submittransurl = "http://localhost:8001/chonkenhthanhtoan"
+submittransThanhtoanurl = "http://10.30.22.130:8001/thanhtoan"
+
+
+[cacheService]
+#host=localhost
+host=10.30.22.130
+port=8012
+source=source
+auth=auth
+
+[errorInfoCache]
+#host=localhost
+host=10.30.22.130
+port=8012
+source=source
+auth=auth
+
+[cardLockedInfoCache]
+#host=localhost
+host=10.30.22.130
+port=8012
+source=source
+auth=auth
+
+
+
+

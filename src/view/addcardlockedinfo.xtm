@@ -1,0 +1,32 @@
+<form method="post" action="/dbgclient/addcardlockedinfo">
+    <table>
+        <tr>
+            <td>Card Serial </td>
+            <td><input size ="40" type="text" name="cardserial" value="{{cardserial}}"/></td>
+        </tr>
+        <tr>
+            <td>PMCID</td>
+            <td><input size ="40" type="text" name="pmcid" value="{{pmcid}}"/></td>
+        </tr>
+         <tr>
+            <td>MaxCounter</td>
+            <td><input size ="40" type="text" name="maxcounter" value="{{maxcounter}}"/></td>
+        </tr>
+         <tr>
+            <td>DiffInMinute</td>
+            <td><input size ="40" type="text" name="diffinminute" value="{{diffinminute}}"/></td>
+        </tr>
+          <tr>
+            <td>LockInMinute</td>
+            <td><input size ="40" type="text" name="lockinminute" value="{{lockinminute}}"/></td>
+        </tr>
+         <tr>
+           
+             <td colspan="2">{{status}}</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input size ="50" type="submit" value="Add Input Wrong CardPass"/></td>
+        </tr>
+    </table>
+</form>

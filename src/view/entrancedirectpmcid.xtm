@@ -1,0 +1,57 @@
+<form method="post" action="/dbgclient/confirmdirectpmcid">
+    <table>
+        <tr>
+            <td>user id</td>
+            <td><input size ="40" type="text" name="userid" value="hainpt"/></td>
+        </tr>
+        <tr>
+            <td>item id</td>
+            <td><input size ="40" type="text" name="itemid" value="123456"/></td>
+        </tr>
+        <tr>
+            <td>item name</td>
+            <td><input size ="40" type="text" name="itemname" value="Kim Cuong"/></td>
+        </tr>
+        <tr>
+            <td>item quantity</td>
+            <td><input size ="40" type="text" name ="itemquantity" value ="200" /></td>
+        </tr>
+        <tr>
+            <td>charge amt</td>
+            <td><input size ="40" type="text" name ="chargeamt" value ="20000" /></td>
+        </tr>
+        <tr>
+            <td>platform</td>
+            <td><input size ="40" type="text" name ="platform" value ="1" /></td>
+        </tr>
+        <tr>
+            <td>flow</td>
+            <td><input size ="40" type="text" name ="flow" value ="1" /></td>
+        </tr>
+        <tr>
+            <td>serverid</td>
+            <td><input size ="40" type="text" name ="serverid" value ="NA" /></td>
+        </tr>
+        
+        <tr>
+            <td>pmcid</td>
+            <td><input size ="40" type="text" name ="pmcid" value ="1" /></td>
+        </tr>
+         <tr>
+            <td>appserverid</td>
+            <td><input size ="40" type="text" name ="appserverid" value ="NA" /></td>
+        </tr>
+         <tr>
+            <td>apptransid</td>
+            <td><input size ="40" type="text" name ="apptransid" value ="{{apptransid}}" /></td>
+        </tr>
+         <tr>
+            <td>client platform</td>
+            <td><input size ="40" type="text" name ="pl" value ="{{pl}}" /></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input size ="50" type="submit" value="Xác Nhận"/></td>
+        </tr>
+    </table>
+</form>

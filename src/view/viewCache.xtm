@@ -1,0 +1,40 @@
+<form method="post" action="/dbgclient/viewCache">
+    <table>
+        <tr>
+            <td>Trans cache key</td>
+            <td><input size ="40" type="text" name="cacheKey" value="{{cacheKey}}"/></td>
+        </tr>
+        <tr>
+            <td>Cache value</td>
+            <td>            
+                <textarea rows="15" cols="50">
+                    {{cacheValue}}
+                </textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                    View Counter Cache
+            </td>
+        </tr>
+        <tr>
+            <td>Cache key</td>
+            <td><input size ="40" type="text" name="cacheCntKey" value="{{cacheCntKey}}"/></td>
+        </tr>
+        <tr>
+            <td>Cache value</td>
+            <td>            
+                <textarea rows="15" cols="50">
+                    {{cacheCntValue}}
+                </textarea>
+            </td>
+        </tr>
+        
+        <tr>
+            <td></td>
+            <td>
+                <input size ="50" type="submit" value="Xác Nhận"/>
+            </td>
+        </tr>
+    </table>
+</form>

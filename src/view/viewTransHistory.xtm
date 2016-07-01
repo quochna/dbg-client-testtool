@@ -1,0 +1,27 @@
+
+<form method="post" action="/dbgclient/viewTransHistory">
+    <table>
+        <tr>
+            <td>App Id</td>
+            <td><input size ="40" type="text" name="appId" value="{{appId}}"/></td>
+        </tr>
+        <tr>
+            <td>User Id</td>
+            <td><input size ="40" type="text" name="userId" value="{{userId}}"/></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input size ="50" type="submit" value="Get Transaction History"/>
+            </td>
+        </tr>
+        <tr>
+            <td>Transaction History</td>
+            <td>
+                <table>
+                    {{transHistory}}
+                </table>
+            </td>
+        </tr>
+    </table>
+</form>

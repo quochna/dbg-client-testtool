@@ -1,0 +1,64 @@
+<style>
+ table, td, th
+{
+    border:1px solid green;
+    border-spacing:2;
+    border-padding:3;
+    text-align: center;
+}
+th
+{
+background-color:green;
+color:white;
+}
+
+</style>
+
+
+<div>
+    
+    
+    <table >
+        <tr>
+            <td colspan="4">
+                Total error ( {{errorcode}} ) in {{minuteinterval}} minutes :  {{errorcount}}
+            </td>
+        </tr>
+       <tr>
+           <td>
+               Order
+           </td>
+                <td>
+                   TransID
+                </td>
+                <td>
+                    ErrorCode
+                </td> 
+                <td>
+                    RequestTime
+                </td>
+        </tr>
+        
+        {{#errorinfo}}     
+           
+            <tr>
+                <td>
+                    {{order}}
+                </td>
+                <td>
+                    {{transid}}
+                </td>
+                <td>
+                    {{returncode}}
+                </td> 
+                <td>
+                    {{datetime}}
+                </td>
+            </tr>
+            
+              
+            {{/errorinfo}}  
+
+    </table >
+    
+</div>

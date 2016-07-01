@@ -1,0 +1,60 @@
+<form method="post" action="/dbgclient/smsconfirm">
+    <table>
+        <tr>
+            <td>user id</td>
+            <td><input size ="40" type="text" name="userid" value="hainpt"/></td>
+        </tr>
+        <tr>
+            <td>item id</td>
+            <td><input size ="40" type="text" name="itemid" value="123456"/></td>
+        </tr>
+        <tr>
+            <td>item name</td>
+            <td><input size ="40" type="text" name="itemname" value="Kim Cuong"/></td>
+        </tr>
+        <tr>
+            <td>item quantity</td>
+            <td><input size ="40" type="text" name ="itemquantity" value ="200" /></td>
+        </tr>
+        <tr>
+            <td>charge amt</td>
+            <td><input size ="40" type="text" name ="chargeamt" value ="20000" /></td>
+        </tr>
+        <tr>
+            <td>platform</td>
+            <td><input size ="40" type="text" name ="platform" value ="1" /></td>
+        </tr>
+        <tr>
+            <td>flow</td>
+            <td><input size ="40" type="text" name ="flow" value ="1" /></td>
+        </tr>
+        <tr>
+            <td>appid </td>
+            <td><input size ="40" type="text" name ="appid" value ="" /></td>
+        </tr>  
+        <tr>
+            <td>appserverid </td>
+            <td><input size ="40" type="text" name ="appserverid" value ="na" /></td>
+        </tr>      
+        <tr>
+            <td>pmcid</td>
+            <td><input size ="40" type="text" name ="pmcid" value ="" /></td>
+        </tr>
+         <tr>
+            <td>app trans id</td>
+            <td><input size ="40" type="text" name ="apptransid" value ="{{appTransID}}" /></td>
+        </tr>
+        <tr>
+            <td>transid </td>
+            <td><input size ="40" type="text" name ="transid" value ="" /></td>
+        </tr>
+        <tr>
+            <td>device platform </td>
+            <td><input size ="40" type="text" name ="pl" value ="android" /></td>
+        </tr>          
+        <tr>
+            <td></td>
+            <td><input size ="50" type="submit" value="Xác Nhận"/></td>
+        </tr>
+    </table>
+</form>

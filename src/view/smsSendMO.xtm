@@ -1,0 +1,46 @@
+<div>
+    <form method="post" action="/dbgclient/smsmoresult">
+        <table>
+            <tr>
+                <td>requestID</td>
+                <td><input size ="50" type="text" name ="requestid" value ="{{requestid}}"</td>
+            </tr>
+            <tr>
+                <td>userID</td>
+                <td><input size ="50" type="text" name ="userid" value ="{{userid}}"</td>
+            </tr>
+            <tr>
+                <td>serviceID</td>
+                <td><input size ="50" type="text" name ="serviceid" value ="{{serviceid}}"</td>
+            </tr>
+            <tr>
+                <td>commandCode</td>
+                <td><input size ="50" type="text" name ="commandcode" value ="{{commandcode}}"</td>
+            </tr>
+            <tr>
+                <td>message</td>
+                <td><input size ="50" type="text" name ="message" value ="{{message}}"</td>
+            </tr>
+            <tr>
+                <td>mobileOperator</td>
+                <td><input size ="50" type="text" name ="mobileoperator" value ="{{mobileoperator}}"</td>
+            </tr>
+            <tr>
+                <td>userName</td>
+                <td><input size ="50" type="text" name ="username" value ="{{username}}"</td>
+            </tr>
+            <tr>
+                <td>password</td>
+                <td><input size ="50" type="text" name ="password" value ="{{password}}"</td>
+            </tr>
+            <tr>
+                <td>requestTime</td>
+                <td><input size ="50" type="text" name ="requesttime" value ="{{requesttime}}"</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input size ="50" type="submit" value="Xác Nhận"/></td>
+            </tr>
+        </table>
+    </form>
+</div>

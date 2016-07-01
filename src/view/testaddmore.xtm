@@ -1,0 +1,17 @@
+<form method="post" target="_blank" action="http://dbg-touch.zing.vn:8017/addmore">
+    <table>
+        <tr>
+            <td>accountname</td>
+            <td><input size ="40" type="text" name="userid" value="hainpt"/></td>
+        </tr>
+        <tr>
+            <td>callback</td>
+            <td><input size ="40" type="text" name="cb" value="testcallback"/></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td><input size ="50" type="submit" value="Add more"/></td>
+        </tr>
+    </table>
+</form>

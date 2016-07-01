@@ -1,0 +1,73 @@
+<div>
+    <table>
+        <tr>
+            <td>user id</td>
+            <td>{{userid}}</td>
+        </tr>
+        <tr>
+            <td>item id</td>
+            <td>{{itemid}}</td>
+        </tr>
+        <tr>
+            <td>item name</td>
+            <td>{{itemname}}</td>
+        </tr>
+        <tr>
+            <td>item quantity</td>
+            <td>{{itemquantity}}</td>
+        </tr>
+        <tr>
+            <td>charge amt</td>
+            <td>{{chargeamt}}</td>
+        </tr>
+        <tr>
+            <td>platform</td>
+            <td>{{platform}}</td>
+        </tr>
+        <tr>
+            <td>flow</td>
+            <td>{{flow}}</td>
+        </tr>
+        <tr>
+            <td>serverid</td>
+            <td>{{serverid}}</td>
+        </tr>
+        <tr>
+            <td>transid</td>
+            <td>{{transid1}}</td>
+        </tr>
+        <tr>
+            <td>reqtime</td>
+            <td>{{reqtime1}}</td>
+        </tr>
+        <tr>
+            <td>appdata</td>
+            <td>{{appdata1}}</td>
+        </tr>
+        <tr>
+            <td>appserverid</td>
+            <td>{{appserverid}}</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td align="center" colspan="2">               
+                <form method="post" id="frmConfirm" name="frmConfirm" target="_blank" action="{{submittransthanhtoanurl}}"> 
+               
+                   
+                    <input type="hidden" name="pmcid" value="{{pmcid}}" />
+                    
+                    <input type="submit" value="Xác Nhận"/> 
+                    <input type="hidden" name="transid" value="{{transid}}" />
+                    <input type="hidden" name="appid" value="{{appid}}" />
+                    <input type="hidden" name="appdata" value="{{appdata}}" />
+                    <input type="hidden" name="appserverid" value="{{appserverid}}" />
+                    <input type="hidden" name="platform" value="{{platform}}" />
+                    <input type="hidden" name="apptransid" value="{{apptransid}}" />
+                    <input type="hidden" name="cfreturncode" value="{{cfreturncode}}" />
+                  <input type="hidden" name="pl" value="{{pl}}" />
+                </form>
+            </td>
+        </tr>
+    </table>
+    
+</div>
