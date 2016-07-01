@@ -53,7 +53,7 @@ public class WebServer extends Thread {
 
         ServletHandler handler = new ServletHandler();
         handler.addServletWithMapping(dbg.edit.EntranceController.class, "/dbgclient/entrance");
-        handler.addServletWithMapping(dbg.edit.ConfirmController.class, "/dbgclient/confirm");
+        handler.addServletWithMapping(dbg.client.ConfirmController.class, "/dbgclient/confirm");
         handler.addServletWithMapping(dbg.client.ViewCacheController.class, "/dbgclient/viewCache");
         handler.addServletWithMapping(dbg.client.ViewTransHistoryController.class, "/dbgclient/viewTransHistory");
         handler.addServletWithMapping(dbg.client.GetTransStausController.class, "/dbgclient/getTransStatus");
