@@ -6039,3 +6039,55 @@ ERROR [qtp161539080-29] 2016-06-30 17:57:18,400 ConfirmController.java (line 55)
  INFO [main] 2016-07-01 08:43:40,865 DbgTestToolConfig.java (line 79) Hash key: 01234567890123456789012345678912
  INFO [main] 2016-07-01 08:43:40,866 DbgTestToolConfig.java (line 80) Api Base Url: https://sandbox.direct.pay.zing.vn/dbgapi/
  INFO [qtp161539080-30] 2016-07-01 08:43:49,594 ConfirmController.java (line 122) appTest: 
+ INFO [main] 2016-07-01 09:47:52,981 DbgTestToolConfig.java (line 77) AppID: 1
+ INFO [main] 2016-07-01 09:47:52,983 DbgTestToolConfig.java (line 78) Key1 : 01234567890123456789012345678912
+ INFO [main] 2016-07-01 09:47:52,984 DbgTestToolConfig.java (line 79) Hash key: 01234567890123456789012345678912
+ INFO [main] 2016-07-01 09:47:52,984 DbgTestToolConfig.java (line 80) Api Base Url: https://sandbox.direct.pay.zing.vn/dbgapi/
+ INFO [qtp567987752-29] 2016-07-01 09:48:20,653 ConfirmController.java (line 122) appTest: 
+ INFO [qtp567987752-43] 2016-07-01 09:49:17,180 ConfirmController.java (line 122) appTest: 
+ INFO [qtp567987752-35] 2016-07-01 09:49:21,378 ConfirmController.java (line 122) appTest: 
+ INFO [main] 2016-07-01 10:07:33,078 DbgTestToolConfig.java (line 77) AppID: 1
+ INFO [main] 2016-07-01 10:07:33,081 DbgTestToolConfig.java (line 78) Key1 : 01234567890123456789012345678912
+ INFO [main] 2016-07-01 10:07:33,081 DbgTestToolConfig.java (line 79) Hash key: 01234567890123456789012345678912
+ INFO [main] 2016-07-01 10:07:33,081 DbgTestToolConfig.java (line 80) Api Base Url: https://sandbox.direct.pay.zing.vn/dbgapi/
+ INFO [qtp1012100881-45] 2016-07-01 10:08:17,675 ConfirmController.java (line 122) appTest: 
+ INFO [qtp1012100881-29] 2016-07-01 10:08:40,502 ConfirmController.java (line 122) appTest: 
+ INFO [main] 2016-07-01 10:14:30,582 DbgTestToolConfig.java (line 77) AppID: 1
+ INFO [main] 2016-07-01 10:14:30,584 DbgTestToolConfig.java (line 78) Key1 : 01234567890123456789012345678912
+ INFO [main] 2016-07-01 10:14:30,585 DbgTestToolConfig.java (line 79) Hash key: 01234567890123456789012345678912
+ INFO [main] 2016-07-01 10:14:30,585 DbgTestToolConfig.java (line 80) Api Base Url: https://sandbox.direct.pay.zing.vn/dbgapi/
+ INFO [qtp30342460-46] 2016-07-01 10:14:54,754 ConfirmController.java (line 122) appTest: 
+ INFO [qtp30342460-29] 2016-07-01 10:19:17,642 ConfirmController.java (line 122) appTest: 
+ INFO [main] 2016-07-01 10:23:37,986 DbgTestToolConfig.java (line 77) AppID: 1
+ INFO [main] 2016-07-01 10:23:37,988 DbgTestToolConfig.java (line 78) Key1 : 01234567890123456789012345678912
+ INFO [main] 2016-07-01 10:23:37,988 DbgTestToolConfig.java (line 79) Hash key: 01234567890123456789012345678912
+ INFO [main] 2016-07-01 10:23:37,989 DbgTestToolConfig.java (line 80) Api Base Url: https://sandbox.direct.pay.zing.vn/dbgapi/
+ INFO [qtp1012100881-31] 2016-07-01 10:24:07,317 ConfirmController.java (line 122) appTest: 
+ INFO [main] 2016-07-01 10:28:21,740 DbgTestToolConfig.java (line 77) AppID: 1
+ INFO [main] 2016-07-01 10:28:21,742 DbgTestToolConfig.java (line 78) Key1 : 01234567890123456789012345678912
+ INFO [main] 2016-07-01 10:28:21,742 DbgTestToolConfig.java (line 79) Hash key: 01234567890123456789012345678912
+ INFO [main] 2016-07-01 10:28:21,743 DbgTestToolConfig.java (line 80) Api Base Url: https://sandbox.direct.pay.zing.vn/dbgapi/
+ INFO [qtp1012100881-37] 2016-07-01 10:28:41,961 ConfirmController.java (line 122) appTest: 
+ INFO [qtp1012100881-30] 2016-07-01 10:29:50,235 ConfirmController.java (line 122) appTest: 
+ INFO [qtp1012100881-64] 2016-07-01 10:30:49,711 ConfirmController.java (line 122) appTest: 
+ INFO [qtp1012100881-55] 2016-07-01 10:31:36,879 ConfirmController.java (line 122) appTest: 
+ INFO [main] 2016-07-01 10:40:49,845 DbgTestToolConfig.java (line 77) AppID: 1
+ INFO [main] 2016-07-01 10:40:49,848 DbgTestToolConfig.java (line 78) Key1 : 01234567890123456789012345678912
+ INFO [main] 2016-07-01 10:40:49,848 DbgTestToolConfig.java (line 79) Hash key: 01234567890123456789012345678912
+ INFO [main] 2016-07-01 10:40:49,849 DbgTestToolConfig.java (line 80) Api Base Url: https://sandbox.direct.pay.zing.vn/dbgapi/
+ INFO [main] 2016-07-01 10:54:19,240 DbgTestToolConfig.java (line 77) AppID: 1
+ INFO [main] 2016-07-01 10:54:19,242 DbgTestToolConfig.java (line 78) Key1 : 01234567890123456789012345678912
+ INFO [main] 2016-07-01 10:54:19,243 DbgTestToolConfig.java (line 79) Hash key: 01234567890123456789012345678912
+ INFO [main] 2016-07-01 10:54:19,243 DbgTestToolConfig.java (line 80) Api Base Url: https://sandbox.direct.pay.zing.vn/dbgapi/
+ INFO [main] 2016-07-01 10:59:37,591 DbgTestToolConfig.java (line 77) AppID: 1
+ INFO [main] 2016-07-01 10:59:37,593 DbgTestToolConfig.java (line 78) Key1 : 01234567890123456789012345678912
+ INFO [main] 2016-07-01 10:59:37,593 DbgTestToolConfig.java (line 79) Hash key: 01234567890123456789012345678912
+ INFO [main] 2016-07-01 10:59:37,593 DbgTestToolConfig.java (line 80) Api Base Url: https://sandbox.direct.pay.zing.vn/dbgapi/
+ INFO [main] 2016-07-01 11:06:08,129 DbgTestToolConfig.java (line 77) AppID: 1
+ INFO [main] 2016-07-01 11:06:08,132 DbgTestToolConfig.java (line 78) Key1 : 01234567890123456789012345678912
+ INFO [main] 2016-07-01 11:06:08,132 DbgTestToolConfig.java (line 79) Hash key: 01234567890123456789012345678912
+ INFO [main] 2016-07-01 11:06:08,133 DbgTestToolConfig.java (line 80) Api Base Url: https://sandbox.direct.pay.zing.vn/dbgapi/
+ INFO [main] 2016-07-01 11:10:48,215 DbgTestToolConfig.java (line 77) AppID: 1
+ INFO [main] 2016-07-01 11:10:48,217 DbgTestToolConfig.java (line 78) Key1 : 01234567890123456789012345678912
+ INFO [main] 2016-07-01 11:10:48,218 DbgTestToolConfig.java (line 79) Hash key: 01234567890123456789012345678912
+ INFO [main] 2016-07-01 11:10:48,218 DbgTestToolConfig.java (line 80) Api Base Url: https://sandbox.direct.pay.zing.vn/dbgapi/
